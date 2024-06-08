@@ -2,16 +2,12 @@ package qa.mobile.steps.global;
 
 import io.appium.java_client.MobileBy;
 import io.cucumber.java.es.Cuando;
-import net.thucydides.core.webdriver.WebDriverFacade;
-import org.openqa.selenium.*;
 import qa.mobile.screenplay.global.questions.EsVisible;
 import qa.mobile.screenplay.global.tasks.*;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getDriver;
-import static qa.mobile.screenplay.global.tasks.HacerScroll.isEndOfPage;
-import static qa.mobile.screenplay.global.tasks.HacerScroll.scroll;
 
 public class AccionesStepsDef {
 

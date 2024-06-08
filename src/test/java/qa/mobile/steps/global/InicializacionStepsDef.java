@@ -4,10 +4,8 @@ import io.cucumber.java.Before;
 import io.cucumber.java.es.Dado;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
-import qa.mobile.screenplay.global.GlobalConfig;
 import qa.mobile.screenplay.global.abilities.Identificarse;
 import qa.mobile.screenplay.global.tasks.AbreLaApp;
-import qa.mobile.screenplay.global.tasks.Navegar;
 
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
